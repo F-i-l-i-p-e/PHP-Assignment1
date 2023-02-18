@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Student Record</title>
+      <meta name="author" content="Filipe Nogueira Santos">
+      <meta name="description" content="PHP Assignment 1 pages and DB for a Student Record">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="CSS/style.css">
+      <link rel="icon" type="image/png" href="IMAGES/favicon.png">
+   </head>
+   <body>
+      <!--Start of navbar using bootstrap classes, it breaks for mobile friendly use-->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+         <!--logo/brand-->
+         <a class="navbar-brand" href="index.html">
+         SG
+         </a>
+         <!-- menu selection with index, add content and view content pages-->
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="PHP/add_content.php">Add Grades</a>
+               </li>
+               <li class="nav-item">
+                  <a class="nav-link" href="PHP/view_content.php">View Grades</a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- main div of the main that hold 2 buttons leading to add a record or view the records, uses CSS images background-->
+      <div class="containerIndex">
+         <h1 class="h1Index">Welcome to Student Grades Record!</h1>
+         <div class="row">
+            <div class="col-md-6">
+               <a href="PHP/add_content.php">
+               <button type="button" class="btn btn-warning btn-lg btn-block">ADD</button>
+               </a>
+            </div>
+            <div class="col-md-6">
+               <a href="PHP/view_content.php">
+               <button type="button" class="btn btn-warning btn-lg btn-block">VIEW</button>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!--Start of the footer-->
+      <footer>
+         <div class="container-fluid p-3">
+            <p class="font-weight-bold">SG | PHP Assignment for Student Grades Record</p>
+         </div>
+      </footer>
+      <!--add JS scripts for bootstrap, it is located at the end of the page for faster loading-->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+   </body>
+</html>
