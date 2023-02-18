@@ -1,5 +1,8 @@
 # PHP-Assignment1
 
+PS- php-assignment-1.sql is a Dump from xampp sql server after testing and running. The original Query file used in xampp is located inside Original Query DB folder.
+
+-----------------------------------------
 Assignment One
 Dynamic Web Site with Database Integration
 Due: Week 6
